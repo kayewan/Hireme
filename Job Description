@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Job Description</title>
+<style type="text/css">
+body {
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+</style>
+</head>
+<body>
+<h1 align="center">Job Description</h1>
+<form name= "Job Description" id= "Job Description" method= "post" action= "" >
+<table width="642" border="1" align="center" cellpadding="2" cellspacing="1">
+  <tbody>
+    <tr>
+      <td width="138" height="36"><strong>Client Name</strong></td>
+      <td width="146"><select name="txtclientname" id="clientname">
+        <option value="">Choose..</option>
+      </select></td>
+      <td width="168"><strong>Job Title</strong></td>
+      <td width="159">
+<input type="text" name="txtjobtitle" id="jobtitle">
+</td>
+    </tr>
+    <tr>
+      <td height="34"><strong>Location</strong></td>
+      <td><select name="txtlocation" id="location">
+      <option value="">choose..</option>
+      </select></td>
+      <td><strong>Address</strong></td>
+      <td><textarea name="txtaddress" id="address"></textarea></td>
+    </tr>
+    <tr>
+      <td height="34"><strong>Number Of Position</strong></td>
+      <td><input type="number" name="txtnumberofposition" id="numberofposition"></td>
+      <td><strong>Minimum Education Exp</strong></td>
+      <td><select name="txtminimumeduexp" id="mininumeduexp">
+      <option value="">choose..</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td height="34"><strong>Minimum Work Exp</strong></td>
+      <td><select name="txtminimumworkexp" id="minimumworkexp">
+      <option value="">chosse..</option>
+      </select></td>
+      <td><strong>Salary</strong></td>
+      <td><input type="text" name="txtsalary" id="salary"></td>
+    </tr>
+    <tr>
+      <td height="35"><strong>Work Timing</strong></td>
+      <td><input type="datetime" name="txtworktiming" id="worktiming"></td>
+      <td><strong>Weekly Off</strong></td>
+      <td><input type="week" name="txtweeklyoff" id="weeklyoff"></td>
+    </tr>
+    <tr>
+      <td height="34"><strong>Posted By</strong></td>
+      <td><input type="text" name="txtpostedby" id="postedby"></td>
+      <td><strong>Posted When</strong></td>
+      <td><input type="date" name="txtpostedwhen" id="postedwhen"></td>
+    </tr>
+    <tr>
+      <td height="34">&nbsp;</td>
+      <td><input type="submit" name="submit" id="submit" value="Submit"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>
